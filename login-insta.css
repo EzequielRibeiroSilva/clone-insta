@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#instagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    max-height: 100%;
+}
+
+.container-one img {
+    width: 295px;  
+}
+
+/* formulário de login*/
+
+.container-two {
+    width: 400px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 34px;
+    border: solid 1px rgba(128, 128, 128, 0.336);   
+    border-radius: 5px; 
+}
+
+.logo-instagram {
+    width: 175px;
+    display: block;
+    padding-bottom: px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.field {
+    
+    font-size: 13px;
+    width: 255px;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: solid 1px rgba(128, 128, 128, 0.37);
+    margin-top: 40px;
+}
+
+.field-two {
+    font-size: 13px;
+    width: 255px;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: solid 1px rgba(128, 128, 128, 0.37);
+}
+
+.button-login {
+    margin-left: px;
+    font-size: 14px;
+    width: 274px;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+/* Parte do OR*/
+
+.linha-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+hr {
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #8e8e8e71;
+    width: 115px;
+}
+
+.or {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8e8e8e;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+/*Forgot password*/
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.forgot a {
+    font-size: 12px;
+    color: #223d79;
+}
+
+/*login com o facebook*/
+
+.login-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.face-icon {
+    width: 15px;
+    padding-right: 5px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+    color: #385185;
+}
+
+.creat-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgba(128, 128, 128, 0.397);
+    padding: 20px 0;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.creat-account p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.creat-account a {
+    color: #009bf6;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.app p {
+    margin: 25px 0;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.get-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-app img {
+    width: 139px;
+}
+
+.img-one {
+    margin-right: 5px;
+}
+
+.img-two {
+    margin-left: 5px;
+}
+
+.img-one, .img-two {
+    width: 150px;
+} 
+
+.container-footer-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 0;
+}
+
+.container-footer-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+
+.menu-footer-sup p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-footer-inf p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.opição-menu-footer p, a { 
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.second-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#language {
+    font-size: 12px;
+    color: gray;
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
+    width: 65px;
+    text-align: center;
+}
+
+.insta-from-face {
+    font-size: 12px;
+    color: gray;
+    padding-left: 30px;
+}
+
+/*Aqui começa as @medias*/
+
+@media (max-width: 1024px) {
+    .instagram-container {
+        width: 90%;
+        max-height: 80%;
+    }
+}
+
+@media (max-width: 650px){
+    .instagram-container {
+        width: 90%;
+    }
+
+    .container-one {
+        display: none;
+    }
+}
+
+@media (max-width: 650px){
+    .container-footer-one {
+        width: 90%;
+        text-align: center;
+        padding-left: 22px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container-footer-two {
+        width: 90%;
+        text-align: center;
+        padding-left: 22px;
+        margin-bottom: 9px;
+    }
+}
+
+@media (max-width: 650px) {
+    .second-footer {
+       width: 90%;
+       text-align: center;
+    }
+}
